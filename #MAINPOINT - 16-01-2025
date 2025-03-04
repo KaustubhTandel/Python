@@ -1,0 +1,70 @@
+#MAINPOINT - 16-01-2025
+
+#a=str(input("enter a value :-  "))
+#print(a)
+#output - enter a value :-  "       Raj        " "       Raj        "
+
+#rstrip
+#b=a.rstrip()
+#print(b)
+#output - enter a value :-  raj
+#raj
+#raj
+
+#lstrip
+x="       raj           "
+print(x)
+print(x.lstrip())
+
+#center
+a="       Roshani                                   "
+print(a)
+print(a.center(22))
+#print(center())
+
+#startswith/endswith - Boolean (its is a case sensitive)
+z="I am Rajendra"
+print(z.endswith("a"))
+print(z.startswith("i"))
+#output - True and False
+
+#operator
+#1) ARITHMATICS - +,-,*,/,//,%
+a=21
+b=a//2
+print(b)
+#output - 10
+c=a/3
+print(c)
+#output - 7.0
+d=a+3
+print(d)
+#output - 24
+e=a*3
+print(e)
+#output - 63
+f=a%3
+print(f)
+#output - 0
+
+#COMPARISION OPERATOR - >,<,>=,<=,!=,==
+a=2
+b=3
+print(a>=b)
+print(a!=b)
+print(a!=b)
+print(a<=b)
+#print(a=b) - not get answer
+#print(a==b) - not get answer
+print(a>b)
+print(a<b)
+#print(a!b) - not get answer
+#output - False,True,True,True,False,True
+
+#LOGICAL OPERATOR - or,and
+a=(3>2)
+b=(6<5)
+print(a and b)
+print(a or b)
+#output - False,true
+

@@ -1,0 +1,51 @@
+#OPEARTION 
+#Union Set 
+a={1,1,2,3,2,4,3,5,6,}
+b={4,4,5,5,6,4,7,8,9,}
+c=a|b
+print(c)
+#output - {1, 2, 3, 4, 5, 6, 7, 8, 9}
+d=a.union(b)
+print(d)
+#output - {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+#intersection - showing comman value 
+e=a&b
+print(e)
+#output - {4, 5, 6}
+f=a.intersection(b)
+print(f)
+#output - {4, 5, 6}
+
+#to find uncomman element from both the sets
+g=a-b
+print(g)
+#output - {1, 2, 3}
+q=b-a
+print(q)
+#output - {8, 9, 7}
+m=q|g
+print(m)
+#output - {1, 2, 3, 7, 8, 9}
+
+#to copy element into another element
+r=a.copy()
+print(r)
+#output - {1, 2, 3, 4, 5, 6}
+
+#examples - 
+a=[1,2,3,4,1,2,3,4,5]
+print(a)
+#output - [1, 2, 3, 4, 1, 2, 3, 4, 5]
+b=set(a)
+print(b)
+#output - {1, 2, 3, 4, 5}
+a=list(b)
+print(a)
+print(type(a))
+#output - [1, 2, 3, 4, 5],<class 'list'>
+
+#MAINPOINT
+#when we do some program and we use any datatype,in that program the set is not a datatype its is a function.
+
+ 

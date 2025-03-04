@@ -1,0 +1,27 @@
+
+#1) Make a function to check whether number is even or not..?
+# Program :- 
+def evenbhai():
+    a=int(input("Enter a number: "))
+    if (a%2==0):
+        print(a,"is even number")
+    else :
+        print(a," is not a even number")
+
+evenbhai()
+#output :-   Enter a number: 2
+#            2 is even number
+
+#2) write a function to check if it is given number is divisible by 2 or 4 and 13...?
+#Program :- 
+def divisiblebhai():
+    a=int(input("Enter a number: "))
+    if (a%2==0) or (a%4==0 and a%13==0):
+        print(a,"is divisible by 2 or 4 and 13")
+    else :
+        print(a," is not divisible")
+
+divisiblebhai()
+# output :-  Enter a number: 54
+#            54 is divisible by 2 or 4 and 13
+
